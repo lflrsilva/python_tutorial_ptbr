@@ -121,6 +121,6 @@ Com isso, os comandos dentro do arquivo `script.py` são executados
 sequencialmente.
 
 Neste tutorial, você deve abrir os scripts de execução em algum editor de
-textos simples onde existem comentários sobre a linguagem e algoritmos para
-implementação de códigos em python.
+textos simples onde existem comentários (linhas começadas com `#`) sobre a
+linguagem e algoritmos para implementação de códigos em python.
 
