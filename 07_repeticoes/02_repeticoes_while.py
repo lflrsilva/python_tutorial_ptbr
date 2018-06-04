@@ -34,6 +34,12 @@ print("Vamos contar até %d" % maxcount)
 
 while(count < maxcount):
     count += 1          # equivalente a count = count + 1
+    if(count == 2):
+        continue   # continue volta ao início do laço para a próxima
+                   # repetição
     print("%d" % count)
+
+    if(count == 8):
+        break      # break interrompe o laço imediatamente
 
 
