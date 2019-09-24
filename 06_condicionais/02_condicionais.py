@@ -35,4 +35,4 @@ if(x < 11):
 else:
     x = x + 5
 
-print("x = %3d" % x)
+print(f"x = {x:3d}")

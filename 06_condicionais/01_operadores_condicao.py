@@ -21,7 +21,7 @@ a = 10
 b = 20
 
 # Executando relações, espera-se True ou False
-print("a = %3d, b = %3d" % (a, b))
+print(f"a = {a:3d}, b = {b:3d}")
 print("a == b ", a == b)
 print("a > b ", a > b)
 print("a < b ", a < b)
@@ -35,6 +35,6 @@ print("(a > b) or  (a < b)", (a > b) or (a < b))
 # Devemos ter cuidado...
 x = 0.3333
 y = 1.0000/3.0000
-print("x = %5.4f, y = %5.4f" % (x, y))
+print(f"x = {x:5.4f}, y = {y:5.4f}")
 print("x == y ", x == y)
 

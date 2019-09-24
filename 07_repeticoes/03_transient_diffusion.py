@@ -63,11 +63,11 @@ for it in range(nt):
                           # o valor a todos os elementos do array.
 
         # armazenando curva no gráfico
-        lbl = ("t = %.2f" % (t[it]/3600.0))
+        lbl = (f"t = {t[it]/3600.0:.2f}")
         plt.plot(r, c, label=lbl)
 
         ma[it] = 1.0      # ma = ma0/ma0
-        print("%5.3f \t %5.3f" % (t[it]/3600.0, 1-ma[it]))
+        print(f"{t[it]/3600.0:5.3f} \t {1-ma[it]:5.3f}")
         continue
 
     for ir in range(nr):
@@ -111,7 +111,7 @@ for it in range(nt):
             c[ir] = ca0 + Y*(cas - ca0)
 
     # armazenando curva ca no gráfico
-    lbl = ("t = %.2f" % (t[it]/3600.0))
+    lbl = (f"t = {t[it]/3600.:0.2f}")
     plt.plot(r, c, label=lbl)
     #  plt.legend()
 
@@ -130,7 +130,7 @@ for it in range(nt):
         soma += somar
 
     ma[it] = 6.0*soma/np.pi/np.pi
-    print("%5.3f \t %5.3f" % (t[it]/3600.0, 1.0 - ma[it]))
+    print(f"{t[it]/3600.0:5.3f} \t {1.0 - ma[it]:5.3f}")
     # convertendo o tempo para horas
 
 

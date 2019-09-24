@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 w = ['laranja', 'banana', 'pera', 'jiló']
 
 for fruta in w:
-    print("As frutas são %s." % fruta)
+    print(f"As frutas são {fruta:s}.")
 
     if(fruta == "jiló"):
         print("Desde quando jiló é uma fruta?")

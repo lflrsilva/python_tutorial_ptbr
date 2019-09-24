@@ -35,7 +35,7 @@ def hello_me(name):
     :returns: nada
 
     """
-    print("Olá, %s" % name)
+    print(f"Olá, {name:s}")
     return
 
 def soma(a, b):
@@ -55,27 +55,33 @@ def microbial_growth(c0, A, b, n, t):
     c = c0 + np.divide(A*np.power(t, n), b + np.power(t, n) )
     return c
 
+"""
+Identificador de execução de script como programa principal.
+Não é mandatório incluir, mas é uma forma de controlar melhor
+o código.
+"""
+if __name__ == "__main__":
 # função Oi
-hello_me("LF")
+    hello_me("LF")
 
 # função soma
-x = soma(5, 3)
-print(x)
+    x = soma(5, 3)
+    print(x)
 
 ## Modelo de crescimento
-c0 = 0.01
-Aa = 2.09
-bb = 9550.0
-nn = 2.65
+    c0 = 0.01
+    Aa = 2.09
+    bb = 9550.0
+    nn = 2.65
 
 # Parametros numéricos
-nt = 100
-t0 = 0.0
-tf = 480.0
-t = np.linspace(t0, tf, nt)
-c = microbial_growth(c0, Aa, bb, nn, t)
+    nt = 100
+    t0 = 0.0
+    tf = 480.0
+    t = np.linspace(t0, tf, nt)
+    c = microbial_growth(c0, Aa, bb, nn, t)
 
-plt.plot(t, c)
-plt.xlabel("t (h)")
-plt.ylabel("c (n/m**3) ")
-plt.show()
+    plt.plot(t, c)
+    plt.xlabel("t (h)")
+    plt.ylabel("c (n/m**3) ")
+    plt.show()

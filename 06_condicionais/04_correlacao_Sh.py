@@ -27,8 +27,8 @@ else:
     # caso turbulento
     Sh = 0.0365*m.pow(Re,0.8)*m.pow(Sc, 1.0/3.0)
 
-print("Sh = %5.5f" % Sh)
+print(f"Sh = {Sh:5.5f}")
 
 # obtendo o coeficiente de convecção mássico
 hm = Sh*Dab/L
-print("hm = %5.5f kg/s" % hm)
+print(f"hm = {hm:5.5f} kg/s")

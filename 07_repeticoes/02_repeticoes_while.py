@@ -30,14 +30,14 @@
 
 count = 0
 maxcount = 10
-print("Vamos contar até %d" % maxcount)
+print(f"Vamos contar até {maxcount:d}")
 
 while(count < maxcount):
     count += 1          # equivalente a count = count + 1
     if(count == 2):
         continue   # continue volta ao início do laço para a próxima
                    # repetição
-    print("%d" % count)
+    print(f"{count:d}")
 
     if(count == 8):
         break      # break interrompe o laço imediatamente
