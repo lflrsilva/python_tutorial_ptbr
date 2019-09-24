@@ -25,7 +25,7 @@ print("O no. x alocado é %3.5e" % x)
 # Neste caso, deve-se definir uma tupla para a ordem das variáveis
 print("Nos. x e i em sequencia = %3d, %3.4e" % (i, x) )
 
-# Vale notar que a formatação apresentada acima foi atualizada para
-# Python 3. Apesar de ainda ser possível usar a formatácão antiga, vale
-# verificar a documentação da nova formatação.
+# Vale notar que a formatação apresentada acima foi atualizada em
+# Python 3. Apesar de ainda ser possível usar a formatacão antiga, vale
+# a pena se atualizar em relação à nova formatação.
 
