@@ -52,6 +52,18 @@ print(str2[int1])
 print(str1[1:int1])
 print(str1[1:])
 
+## Booleanas
+print("\n \n - Booleanos:")
+# As variáveis booleanas são usadas em tarefas de decisão
+f = False
+t = True
+
+print(type(f), type(t))
+
+# As decisões podem ser obtidas usando operadores lógicos e de comparação,
+# assunto abordado mais à frente nesse tutorial
+print(f == t)
+
 ## Listas
 print("\n \n - Listas :")
 # Listas são agrupamentos de variáveis de qualquer tipo organizados de forma
