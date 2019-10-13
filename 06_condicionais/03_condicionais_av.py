@@ -8,30 +8,30 @@ if(x < 6):
     print("Entrei no condicional 1?")
     x = 7
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
 if(x == 0):
-    print("Entrei no condiional 2?")
+    print("Entrei no condicional 2?")
     x = 0
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
 if(0): x = 17
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
 if(1): x = 20
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
 x = 6
 if(3 < x < 9):
     print("Olá!")
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
 x = 20
 if(3 < x < 9):
     print("Oi!")
 
-input("Valor de x = %d. \nAperte uma tecla para continuar." % x)
+input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
