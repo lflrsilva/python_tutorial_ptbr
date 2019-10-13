@@ -15,6 +15,8 @@ O tutorial aborda os aspectos básicos de:
 * Condicionais
 * Repetições
 * Funções
+* Numpy básico
+* Scipy básico
 
 Vale ressaltar que o tutorial está em um formato bem básico e recomendo
 fortemente a complementação de seu conteúdo com a 

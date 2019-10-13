@@ -1,2 +1,6 @@
 .DS_Store
 .gitignore
+<<<<<<< HEAD
+=======
+*.html
+>>>>>>> Inclusao de numpy e scipy
