@@ -30,3 +30,4 @@ print(f"Nos. x e i em sequencia = {i:3d}, {x:3.4e}")
 # Vale notar que ainda existem outras possibilidades de formatação
 # usando o comando format. Vale verificar na documentação de
 # Python 3.
+print("O no. aqui colocado = {:d}".format(i))
