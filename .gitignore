@@ -1,5 +1,7 @@
 .DS_Store
 .gitignore
+*.sublime-project
+*.sublime-workspace
 <<<<<<< HEAD
 =======
 *.html
