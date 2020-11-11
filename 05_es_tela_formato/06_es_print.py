@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 """
  Autor : LF Silva
  Data  : 10/11/2020
@@ -22,6 +23,7 @@
  Mais detalhes em:
  https://realpython.com/python-print/
  https://www.programiz.com/python-programming/methods/built-in/print
+
 """
 
 # O comando print, por padrão, sempre inclui um identificador

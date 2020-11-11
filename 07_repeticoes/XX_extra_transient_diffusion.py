@@ -24,16 +24,16 @@ R   = 0.326    # cm
 
 ## variáveis numéricas
 # avaliação ao longo do raio
-nr = 20
+nr = 25
 R0 = 0.0                    # centro da esfera
 r  = np.linspace(R0, R, nr)
 c  = np.empty(nr)           # concentração adimensional ao longo do raio
 
 # avaliação ao longo do tempo
-nt = 10
+nt = 20
 t0 = 0.0
 tf = 21.6e3    # == 6.0 h
-#  tf = 24*3600.0    # == 24.0 h
+# tf = 24*3600.0    # == 24.0 h
 t  = np.linspace(t0, tf, nt)
 ma = np.empty(nt)           # massa adimensional ao longo do tempo
 

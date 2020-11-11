@@ -1,6 +1,7 @@
 #
 # Autor: LF Silva
 # Data : 02/06/2018
+#        11/11/2020
 #
 x = 5
 
@@ -30,8 +31,11 @@ if(3 < x < 9):
 
 input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
 
-x = 20
-if(3 < x < 9):
+x = 6
+if(9 > x > 3):
     print("Oi!")
 
 input(f"Valor de x = {x:d}. \nAperte uma tecla para continuar.")
+
+# regra de ouro: Nunca use operadores de comparação compartilhados.
+#                SEMPRE USE operadores de relação (and / or)!
