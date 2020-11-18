@@ -1,6 +1,7 @@
 #
 # Autor: LF Silva
 # Data  : 26/09/2019
+#         18/11/2020
 #
 #  Introdução ao uso de Numpy - Criação de arrays
 #
@@ -67,6 +68,9 @@ lista2 = np.array(lista1)
 print(lista2 + 2)
 
 # Arrays 1D
+# Elementos sequenciais no array (em fila)
+# arr1D = [el1, el2, el3, el4 ...]
+#
 # Criação definindo valores e tipo de variável
 # dtype = 'int' | 'float' | 'bool' | 'str' | 'object'
 arr1 = np.array([3, 4, 5], dtype='float')
@@ -91,6 +95,23 @@ i = 1
 print(arr1[i])
 
 # Arrays 2D
+# A estrutura é semelhante ao array 1D. Mas imagine que agora cada
+# elemento do array 1D também é um array 1D
+# Elementos sequenciais no array (em fila)
+# arr2D = [el1, el2, el3, el4 ...]
+#
+# Escrevendo de outra forma
+# arr2D = [el1,
+#          el2,
+#          el3,
+#          el4 ...]
+#
+# Agora sabendo que cada elemento também é um array
+# arr2D = [[el11, el12, el13 ...],
+#          [el21, el22, el23 ...],
+#          [el31, el32, el33 ...],
+#          [el41, el42, el43 ...] ...]
+
 # 3 linhas e 4 colunas
 arr2 = np.array([[1, 2, 3, 4], [3, 4, 5, 6], [5, 6, 7, 8]], dtype='float')
 print(f"Forma = {arr2.shape}")

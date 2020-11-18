@@ -13,14 +13,14 @@ arr1 = np.array([ [3, 4, 5, 7, 10, 21],
 # os elementos são rearranjados e os novos elementos são assumem valores
 # repetidos do array
 print(arr1.shape)
-arr2 = np.resize(arr1, (3,8))
+arr2 = np.resize(arr1, (3, 8))
 print(arr2)
 
 # vale notar que o array original não é alterado!
 print(arr1)
 # se usar o método resize diretamente sobre o array, o tamanho do mesmo se
 # altera e os novos elementos são assumidos como nulos
-arr1.resize(3,8)
+arr1.resize(3, 8)
 print(arr1)
 
 # É possível integrar mais elementos ao fim do array
@@ -30,5 +30,5 @@ print(arr4)
 
 # para arrays 2D, é possível especificar em qual eixo (0 - linha ou 1 - coluna)
 # deseja-se colocar os elementos
-arr5 = np.append(arr1, [[1],[2],[3]], axis=1)
+arr5 = np.append(arr1, [[1], [2], [3]], axis=1)
 print(arr5)
