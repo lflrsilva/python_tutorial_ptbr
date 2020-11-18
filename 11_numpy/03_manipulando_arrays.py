@@ -9,11 +9,6 @@ import numpy as np
 arr1 = np.array([ [3, 4, 5, 7, 10, 21],
                   [6, 8, 2, 14, 1, 71] ], dtype='float')
 
-# array transposto
-print(np.transpose(arr1))
-# ou print(arr1.T)
-# obs.: arrays 1D não sofrem efeito quando transposto
-
 # alterando tamanho do array, sem mudar seus elementos
 # os elementos são rearranjados e os novos elementos são assumem valores
 # repetidos do array
